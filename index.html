@@ -1,117 +1,73 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - A Pen by Mario</title>
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Merriweather:ital@1&family=Teko:wght@500&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<html>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head></head>
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Hello World!</title>
 
-<body>
-  <header></header>
-  <main>
-    <nav>
-      <a href="#Bio">Bio</a>
-      <a href="#Achievements">Achievements</a>
-      <a href="#Experience">Experience</a>
-      <a href="#Training">Training</a>
-    </nav>
-    <div id="Bio">
-      <div class="column">
-        <div id="picture">
-        <img src="https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png" alt="">
-        <h1>
-          <p class="one">Hi, my name is</p>
-          <p>Anakin Skywalker</p>
-        </h1>
-      </div>
-      </div>
-      <div class="column">
-        <p><b>Analytical, goal oriented leader</b> with proven track record in management and enforcement Space Fleet Operations or Frontend Development. Wide range of hands-on experience, including:
-      </p>
-        <ul>
-          <li>Large scale construction projects oversight</li>
-          <li>Advanced forms of mind control</li>
-          <li>Planetary scale demolitions operations</li>
-          <li>Fugitive recovery services</li>
-        </ul>
+    <!-- 
+      The website stylesheet
+      This connects your CSS file to your HTML
+    -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 
+      Here you can import your fonts
+      You can find all sort of fonts here: https://fonts.google.com/ 
+      Find the one that you like and copy hte <link> part from Selected family
+    -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+      We have already prepared basic structure for your elements, but you can change them anyway you like
+    -->
+    <div class="wrapper">
+      <div class="content">
+        <!-- Our main title -->
+        <h1 class="title">Hello World!</h1>
+        <!-- 
+          Here you can implement the logo from assets folder
+          For source attribute you will need to copy the url link of the picture,
+          because it's uploaded online
+        -->
+        <img class="logo" src="https://cdn.glitch.global/f2832af4-2874-427c-bcde-74d253819337/green_fox_logo.png?v=1678725318458"/>
+        <!-- 
+          This is our main text area
+          Look closely on the page that you should recreate and figure out what tags you have to add
+        -->
+        <div class="main">
+          <h2>Beggining of something big</h2>
+
+          <p>Welcome to my First Website Project! First, let me introduce myself. My name is Mario Bucek and I want to become the second best software developer, that works by day and sleeps by night. Why second best, you ask? Because Bruce Wayne wants to became the wery best! I'm hardcore, but I ain't competin' with Batman! Here, a list of some of my achievemnts:</p>
+          
+          <ul>
+            <li>Own nothing and pretend to be happy, just like Master Orwell wrote in 1984</li>
+            <li>Defeated my disability and learned to live in a world not made for the disabled</li>
+            <li>Fought to get out of the bed on Sunday morning</li>
+            <li>Looking bad enough to trip Discord's malware protection when trying to upload a profile foto, LoL!</li>
+          </ul>
+
+          <!--  Add more elements and style them in the CSS file -->
+        </div>
       </div>
     </div>
-    <div id="Achievements">
-      <div class="column">
-        <blockquote>
-        <q>Together we can rule the galaxy</q>
-      </blockquote>
-      </div>
-      <div class="column">
-        <h2>Notable achievements</h2>
-        <h3>Designed, built and piloted a custom pod racer. 32 BBY Boonta Eve Classic Race Champion</h3>
-        <p>In my spare time at Wald’s Parts junk shop I designed and built a Class III open cockpit Podracer capable of 588 mph top speed. Went on to win the Boonta Eve Classic race in 32 BBY - first ever win by a human. Generated documented company revenue of over 59 wupiupi during the course of my enslavement.</p>
-        <h3>Oversight of DS1 and DS2 Orbital Battle Stations construction projects</h3>
-        <p>During my tenure as a Supreme Imperial Fleet Commander I was in charge of large capital construction projects for the Deep Space Fleet. Performed acceptance testing of the DS1 SuperLaser in 0 BBY by annihilating Alderaan - a terrestrial class planet in the Core Worlds region. Successfully tripled the deep space fire power of the imperial fleet in accordance with the Tarkin Doctrine before losing both projects to run-away photon torpedoes.</p>
-      </div>
-    </div>
-    <div id="Experience">
-      <div class="column">
-        <blockquote>
-        <q>I find your lack of faith disturbing.</q>
-      </blockquote>
-      </div>
-      <div class="column">
-        <h2>Experience</h2>
-        <h3>Sith Empire Headquarters, Dromund Kaas</h3>
-        <p class="subtext">Supreme Commander of Imperial Forces, Emperor’s Enforcer</p>
-        <ul>
-        <li>As the right-hand man to Emperor Sidious, hunted down jedi survivors and enforced the will of the empire;</li>
-        <li>Oversaw construction of the first generation Death Star;</li>
-        <li>First ever Imperial Supreme Commander;</li>
-      </ul>
-        <h3>Wally’s Parts / Toyarian Watto junk shop, Mos Espa, Tatooine</h3>
-        <p class="subtext">Enslaved Volunteer</p>
-        <ul>
-        <li>General help and front-desk retail operations at the junk shop, second hand droid parts, mechanical / droid repair services;</li>
-        <li>Designed and piloted custom-built Podracer, ran track-side operations for the podracing team;</li>
-      </ul>
-      </div>
-    </div>
-    <div id="Training">
-      <div class="column">
-        <blockquote>
-        <q>When I left you, I was but the learner; now I am the master.</q>
-      </blockquote>
-      </div>
-      <div class="column">
-        <h2>Formal training</h2>
-        <h3>Green Fox Academy, Earth</h3>
-        <p class="subtext">Full stack developer</p>
-        <ul>
-        <li>Youngling in the Green Fox temple;</li>
-        <li>Wannabe programmer and Jedi Master;</li>
-      </ul>
-        <h3>Sith Empire, Coruscant</h3>
-        <p class="subtext">Master of the Dark Side of the Force</p>
-        <ul>
-        <li>Apprentice to Sith Lord Darth Sidious;</li>
-      </ul>
-        <h3>Jedi Order Academy, Coruscant</h3>
-        <p class="subtext">Master of Jedi Force</p>
-        <ul>
-        <li>Padawan to Knight Obi Wan Kenobi. Bodyguard to Senator Padme Amidala during the Clone Wars of 22 BBY;</li>
-        <li>Graduated with donors;</li>
-      </ul>
-      </div>
-    </div>
-  </main>
-  <footer></footer>
-</body>
-
-</html>
-<!-- partial -->
-  
-</body>
+  </body>
 </html>
